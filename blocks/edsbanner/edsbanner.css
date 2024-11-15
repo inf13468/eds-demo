@@ -1,0 +1,41 @@
+.edsbanner-container .edsbanner-wrapper {
+    max-width: unset;
+    padding: 30px 30px;
+    position: relative;
+    z-index: 1;
+    background-color: blue;
+  }
+  
+  .edsbanner {
+    position: relative;
+    z-index: -1;
+    padding: 40px 24px;
+    min-height: 300px;
+  }
+  
+  .edsbanner h1 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--background-color);
+  }
+  
+  .edsbanner picture {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+  
+  .edsbanner img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (width >= 900px) {
+    .edsbanner {
+      padding: 40px 32px;
+    }
+  }
